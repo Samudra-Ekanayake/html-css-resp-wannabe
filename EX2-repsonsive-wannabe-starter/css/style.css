@@ -133,6 +133,13 @@ img {
     
  }
 
- @media screen and (max-width:400px) {
-    
+ @media screen and (max-width:480px) {
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
  }
